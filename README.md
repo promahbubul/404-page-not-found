@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{main--classy-melba-365212.netlify.app/}">
+    <a href="https://main--classy-melba-365212.netlify.app/">
       Demo
     </a>
     <span> | </span>
