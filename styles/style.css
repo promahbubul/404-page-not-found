@@ -1,0 +1,162 @@
+/* ===============================
+                 Import Fonts
+=============================== */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Space+Mono:wght@400;700&display=swap");
+
+/* ===============================
+                    Default Style
+=============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono";
+}
+
+:root {
+  --gray-1: #333;
+  --gray-2: #4f4f4f;
+  --secondary: #bdbdbd;
+}
+
+/* ===============================
+                    Navbar Section
+=============================== */
+nav {
+  width: 90%;
+  padding: 20px 0;
+  margin: auto;
+  letter-spacing: -3px;
+  font-family: Inconsolata;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+nav h1 {
+}
+
+/* ===============================
+                    Main Section
+=============================== */
+main {
+  height: 95vh;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 95%;
+}
+.left {
+  width: 45%;
+}
+
+.left img {
+  width: 100%;
+}
+
+.right {
+  width: 50%;
+}
+.right h1 {
+  font-size: 65px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+  color: var(--gray-1);
+  margin-bottom: 40px;
+  letter-spacing: -2.24px;
+}
+
+.right p {
+  font-size: 22px;
+  width: 360px;
+  margin-bottom: 65px;
+  color: var(--gray-2);
+}
+.right button {
+  background: var(--gray-1);
+  color: white;
+  border: 0px;
+  padding: 15px 30px;
+  outline: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* ===============================
+                    Footer Section
+=============================== */
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+footer span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: var(--secondary);
+}
+
+/* ===============================
+                    Media Query
+=============================== */
+
+@media (max-width: 780px) {
+  nav {
+    width: 90%;
+    padding: 20px 0;
+    margin: auto;
+    letter-spacing: -3px;
+    font-family: Inconsolata;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  main {
+    height: 100%;
+  }
+
+  .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+  }
+  .left {
+    width: 100%;
+    margin: auto;
+  }
+
+  .right {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+  .right h1 {
+    font-size: 90px;
+    margin-top: 80px;
+  }
+
+  .right p {
+    font-size: 32px;
+    width: 90%;
+  }
+
+  .right button {
+    margin-top: 50px;
+    padding: 35px 100px;
+    outline: 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+
+  footer span {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+}
